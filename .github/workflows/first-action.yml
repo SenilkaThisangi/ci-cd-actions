@@ -1,0 +1,9 @@
+name: Disaster System Robot
+on: [push]
+
+jobs:
+  say-hello:
+      runs-on: ubuntu-latest
+      steps:
+        - name: First Step
+          run: echo "System is being deployed"
