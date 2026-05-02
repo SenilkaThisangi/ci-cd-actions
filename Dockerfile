@@ -6,7 +6,7 @@ LABEL description="J4 platform health-check and ops service"
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONDONTUNBUFFERED=1
 
-RUN addgroup --system appgoup && adduser --system --ingroup appgroup appuser
+RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
 
 WORKDIR /app
 
